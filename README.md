@@ -1,9 +1,6 @@
-# Django Vite Example
+# Django Vite Example with Inertia
 
-Example of using [Django Vite](https://github.com/MrBin99/django-vite) module into a basic Django project.
+Example of using the [Django Vite example](https://github.com/MrBin99/django-vite-example) project with [Inertia](https://inertiajs.com).
 
-# Advice
-
-- This is a really basic example to help people figure out how to setup the module.
-- Don't use this project as is.
-- Use it as an helper to begin with and build your configuration upon it.
+# Status
+- This project is _not currently working_.
