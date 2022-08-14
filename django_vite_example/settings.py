@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_vite'
+    'django_vite',
+    'inertia'
 ]
 
 MIDDLEWARE = [
@@ -48,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'inertia.middleware.InertiaMiddleware'
 ]
 
 ROOT_URLCONF = 'django_vite_example.urls'
@@ -139,3 +141,6 @@ STATICFILES_DIRS = [DJANGO_VITE_ASSETS_PATH]
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Inertia layout
+INERTIA_LAYOUT = BASE_DIR / "templates" / "app.html"
